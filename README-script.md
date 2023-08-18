@@ -1,6 +1,8 @@
-# RSS-Linkedin
+# RSS-Linkedin Script
 
 This Python script allows you to fetch content from multiple RSS feeds, display the latest entries, and post them as company updates on LinkedIn using the LinkedIn API. You can also customize the preview image and text for the URLs in the LinkedIn posts.
+
+For the use of the script without menu go to [README Menu](https://github.com/HandyCyberSec/RSS-Linkedin/blob/main/README.md)
 
 ## Prerequisites
 
