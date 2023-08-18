@@ -18,8 +18,8 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository to your local machine:
 
    ```sh
-   git clone https://github.com/your-username/linkedin-auto-post.git
-   cd linkedin-auto-post
+   [git clone https://github.com/your-username/linkedin-auto-post.git](https://github.com/HandyCyberSec/RSS-Linkedin.git)
+   cd rss-Linkedin
    ```
 
 2. Install the required dependencies using pip:
