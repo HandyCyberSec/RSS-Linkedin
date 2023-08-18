@@ -1,12 +1,12 @@
-# RSS Linkedin
+# RSS-Linkedin
 
-This Python script allows you to post company updates to LinkedIn using the LinkedIn API. It fetches content from an RSS feed and creates a formatted post for your LinkedIn company page.
+This Python script fetches content from an RSS feed, displays available fields for each entry, and posts a chosen entry to your LinkedIn company page. You can also customize the preview image and text for the URL in the LinkedIn post.
 
 ## Prerequisites
 
-Before using this script, you'll need:
+Before using this script, make sure you have:
 
-1. LinkedIn API Access Token: Obtain an access token from LinkedIn's Developer Console.
+1. A LinkedIn API Access Token: Obtain an access token from LinkedIn's Developer Console.
 
 2. Company Page ID: Identify the ID of the LinkedIn company page where you want to post updates.
 
@@ -19,29 +19,32 @@ Before using this script, you'll need:
 2. Open the script in a text editor and replace the placeholders with your actual credentials:
 
    ```python
+   rss_feed_url = 'URL_TO_YOUR_RSS_FEED'
    access_token = 'YOUR_ACCESS_TOKEN'
    company_id = 'YOUR_COMPANY_ID'
-   rss_feed_url = 'URL_TO_YOUR_RSS_FEED'
    ```
 
-3. Run the script manually:
-   
+3. Customize the preview image and text:
+
+   ```python
+   preview_image = 'URL_TO_CUSTOM_IMAGE'
+   preview_text = 'Custom preview text for the URL'
+   ```
+
+4. Run the script in your terminal:
+
    ```sh
    python post_linkedin_update.py
    ```
 
-4. Optionally, set up a scheduled task to run the script periodically for automatic updates.
-
-## Customization
-
-- You can adjust the formatting of the LinkedIn post by modifying the `update_text` variable in the script.
-- Review LinkedIn's API documentation for any specific guidelines regarding content formatting.
+5. The script will display available fields for each entry from the RSS feed. Choose an entry number to post on LinkedIn.
 
 ## Important Notes
 
 - This script is provided as-is and may require further customization based on your needs.
+- Be cautious when handling and storing your LinkedIn API credentials.
 - Always adhere to LinkedIn's API usage policies and guidelines.
-- Remember to keep your LinkedIn API credentials secure.
+- Use responsibly and respect the terms of service of both LinkedIn and the RSS feed source.
 
 ## License
 
@@ -49,4 +52,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Feel free to customize this README to provide more details about your specific use case, any additional features you've added, and any troubleshooting tips you might have. Make sure to include any dependencies, installation instructions, and other relevant information.
+Feel free to customize this README based on your specific use case, any additional features you've added, and any troubleshooting tips you might have. Include any dependencies, installation instructions, and other relevant information you think would be helpful for users of the script.
