@@ -1,4 +1,4 @@
-# LinkedIn Multi-Feed Company Update Poster
+# RSS-Linkedin
 
 This Python script allows you to fetch content from multiple RSS feeds, display the latest entries, and post them as company updates on LinkedIn using the LinkedIn API. You can also customize the preview image and text for the URLs in the LinkedIn posts.
 
