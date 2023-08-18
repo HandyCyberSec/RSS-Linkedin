@@ -2,6 +2,8 @@
 
 This Python script allows you to automatically post updates to your LinkedIn company page using data from RSS feeds. You can customize the preview image, text, and schedule for posting updates.
 
+For the use of the script without menu go to [README-Menu](HandyCyberSec/RSS-Linkedin/blob/main/README-Menu.md)
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
